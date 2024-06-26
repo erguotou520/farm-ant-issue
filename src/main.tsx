@@ -1,10 +1,11 @@
 import './main.css'
 import zhCN from 'antd/locale/zh_CN'
-import { ConfigProvider, message } from 'antd'
+import { Button, ConfigProvider } from 'antd'
 import { useEffect } from 'react'
 export function Main() {
   useEffect(() => {
-    message.info('Hello, Ant Design!')
+    console.log('Hello, Ant Design!')
+    // message.info('Hello, Ant Design!')
   }, [])
 
   return (
@@ -33,7 +34,7 @@ export function Main() {
         },
       }}
     >
-      <div>123</div>
+      <Button>123</Button>
     </ConfigProvider>
   )
 }
