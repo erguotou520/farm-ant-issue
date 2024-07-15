@@ -6,6 +6,7 @@ export function Main() {
   useEffect(() => {
     console.log('Hello, Ant Design!')
     // message.info('Hello, Ant Design!')
+    fetch('/api/hello').catch(console.warn)
   }, [])
 
   return (
