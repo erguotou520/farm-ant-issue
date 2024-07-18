@@ -5,19 +5,11 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3001',
+        target: 'http://localhost:4001',
         ws: true,
         changeOrigin: true,
         pathRewrite: {
           '/api': '/api'
-        }
-      },
-      '/api/ws': {
-        target: 'wss://echo.websocket.org',
-        ws: true,
-        changeOrigin: true,
-        pathRewrite: {
-          '/api/ws': ''
         }
       }
     }
