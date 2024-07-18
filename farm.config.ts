@@ -7,7 +7,18 @@ export default defineConfig({
       '/api': {
         target: 'http://localhost:3001',
         ws: true,
-        changeOrigin: true
+        changeOrigin: true,
+        pathRewrite: {
+          '/api': '/api'
+        }
+      },
+      '/api/ws': {
+        target: 'wss://echo.websocket.org',
+        ws: true,
+        changeOrigin: true,
+        pathRewrite: {
+          '/api/ws': ''
+        }
       }
     }
   }
