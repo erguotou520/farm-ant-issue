@@ -20,7 +20,9 @@
     "@types/bun": "^1.1.6",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
+    "@unocss/postcss": "^0.62.2",
     "core-js": "^3.37.1",
-    "react-refresh": "^0.14.2"
+    "react-refresh": "^0.14.2",
+    "unocss": "^0.62.2"
   }
 }

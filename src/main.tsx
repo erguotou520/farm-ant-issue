@@ -42,7 +42,9 @@ export function Main() {
 				},
 			}}
 		>
-			<Button>123</Button>
+			<div className="flex px-2 text-#333">
+				<Button>1234</Button>
+			</div>
 		</ConfigProvider>
 	);
 }
