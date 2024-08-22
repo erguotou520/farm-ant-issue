@@ -16,12 +16,14 @@
   "devDependencies": {
     "@farmfe/cli": "^1.0.2",
     "@farmfe/core": "^1.3.3",
+    "@farmfe/js-plugin-postcss": "^1.8.0",
     "@farmfe/plugin-react": "^1.2.0",
     "@types/bun": "^1.1.6",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@unocss/postcss": "^0.62.2",
     "core-js": "^3.37.1",
+    "postcss": "^8.4.41",
     "react-refresh": "^0.14.2",
     "unocss": "^0.62.2"
   }

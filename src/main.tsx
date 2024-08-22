@@ -42,7 +42,7 @@ export function Main() {
 				},
 			}}
 		>
-			<div className="flex px-2 text-#333">
+			<div className="flex px-2 text-#333 py-4">
 				<Button>1234</Button>
 			</div>
 		</ConfigProvider>
